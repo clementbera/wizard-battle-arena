@@ -26,12 +26,12 @@ To demo, download one of the demo fodler and use the scripts (startMac or startL
 
 *Ubuntu 64*
 
-``git clone https://github.com/clementbera/wizard-battle-arena
-cd wizard-battle-arena/Project``
+`git clone https://github.com/clementbera/wizard-battle-arena
+cd wizard-battle-arena/Project`
 
-wget -O- get.pharo.org/64/61+vm | bash
+`wget -O- get.pharo.org/64/61+vm | bash`
 
-./pharo-ui Pharo.image
+``./pharo-ui Pharo.image``
 
 *Ubuntu 32*
 
