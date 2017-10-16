@@ -18,7 +18,7 @@ In general if you want to work on the game you want to checkout only the Project
 
 # Demo
 
-To demo, download one of the demo fodler and use the scripts (startMac or startLinux).
+To demo, download one of the demo folder and use the scripts (startMac or startLinux). The idea is to demo by starting the VM headless, open the UI outside of the Morphic infrastructure, and close the image when the main SDL2 window is killed.
 
 # Building a development runtime
 
