@@ -1,8 +1,10 @@
 # What is this ?
 
-This repository holds the code for the WizardBattleArena game. The game is a bomberman-like with [Liberated Pixel Cup](http://lpc.opengameart.org/) graphics (In short, all graphics are licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)). A preview of the game can be seen on youtube [here](https://www.youtube.com/watch?v=srPdFgbyS6s).
+This repository holds the code for the WizardBattleArena game. A preview of the game can be seen on youtube [here](https://www.youtube.com/watch?v=srPdFgbyS6s).
 
-The game is entirely scripted from [Pharo](https://pharo.org/). For high-performance graphics and responsiveness, the code relies on [SDL2](https://www.libsdl.org/download-2.0.php) to manage OS windows and keyboard event handling and on [Cairo](https://www.cairographics.org/) to draw the 2D graphics on the SDL2 window surface.
+The game is a bomberman-like with [Liberated Pixel Cup](http://lpc.opengameart.org/) graphics (In short, all graphics are licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)). The game itself is under GPLv2 licence. 
+
+The game is entirely written/scripted from [Pharo](https://pharo.org/). For high-performance graphics and responsiveness, the code relies on [SDL2](https://www.libsdl.org/download-2.0.php) to manage OS windows and keyboard event handling and on [Cairo](https://www.cairographics.org/) to draw the 2D graphics on the SDL2 window surface.
 
 Currently the game is more meant as a demo to show how to build native 2D interactive applications running easily at 50 fps from Pharo. However, multiple people played and had a lot of fun: this could be the basis of a very good video game.
 
