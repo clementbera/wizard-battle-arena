@@ -1,6 +1,6 @@
 # What is this ?
 
-This repository holds the code for the WizardBattleArena game. A preview of the game can be seen on youtube:
+This repository holds the code for the WizardBattleArena game. A preview of the game can be seen on youtube (Click the image to watch the video):
 
 [![WizardBattleArenaPreview](https://img.youtube.com/vi/srPdFgbyS6s/0.jpg)](https://www.youtube.com/watch?v=srPdFgbyS6s)
 
@@ -59,6 +59,10 @@ Download http://files.pharo.org/vm/pharo/mac/stable-20150403.zip
 
 Then you can just drag and drop the image over the VM to run it.
 
+*Windows*
+
+I'm still clueless about how the game would behave on this OS, I am still struggle to get a working Windows VM with the correct keys. Try from Pharo 6.1 similarly to Ubuntu 64 and tell me.
+
 ## Loading and running the game
 
 Make sure your image file is in the Project folder, near the src and resources folders (important for relative paths). 
@@ -67,19 +71,9 @@ Open your image with the provided VM.
 
 *Loading*
 
-Open the Monticello Browser from the World menu.
+In short, load the Wizard-Battle-Arena package in the src folder with fileTree. In long, open the Monticello Browser from the World menu. Click "+ Repository". Select "filetree://". Click "src" then "OK". Load the Wizard-Battle-Arena package.
 
-Click "+ Repository"
-
-Select "filetree://"
-
-Click "src" 
-
-Click "OK"
-
-Load the Wizard-Battle-Arena package
-
-Load, if you want to, the Wizard-Battle-Arena-Extras package (unreleased and experimental contents)
+In addition, load, if you want to, the Wizard-Battle-Arena-Extras package (unreleased and experimental contents).
 
 *Running*
 
@@ -88,7 +82,10 @@ In a playground, run this DoIt:
 WizardBattleArena start
 
 If problems:
+
 On Linux in general you need to update Cairo, so try to update libCairo and retry.
+
 On Mac usually the problem is with SDL2, so try to install / update it and retry.
+
 If you've installed something, restart your computer, it may help too.
 
