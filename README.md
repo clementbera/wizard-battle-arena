@@ -33,9 +33,12 @@ To demo, download one of the demo fodler and use the scripts (startMac or startL
 
 *Ubuntu 32*
 
-Should work out the same way as Ubuntu 64, with a 32 bits runtime, even though nobody has tried (I tried 32bits runtime on Ubuntu 64 with 32 bits libs and it worked). Use this line instead the wget line:
-
+	git clone https://github.com/clementbera/wizard-battle-arena
+	cd wizard-battle-arena/Project
 	wget -O- get.pharo.org/61+vm | bash
+	./pharo-ui Pharo.image
+	
+Note: I tried 32bits runtime on Ubuntu 64 with 32 bits libs and it worked, but I did not try on an actual 32 bits Ubuntu.
 
 *Mac OS X 10.11*
 
