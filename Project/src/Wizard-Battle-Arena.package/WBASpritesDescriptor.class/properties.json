@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "cb 7/8/2015 17:10",
+	"super" : "Object",
+	"category" : "Wizard-Battle-Arena-Descriptors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Cache"
+	],
+	"instvars" : [
+		"fileName",
+		"position"
+	],
+	"name" : "WBASpritesDescriptor",
+	"type" : "normal"
+}

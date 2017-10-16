@@ -1,0 +1,28 @@
+{
+	"instance" : {
+		"renderOn:" : "ClementBera 2/1/2016 10:52",
+		"initialize" : "ClementBera 2/1/2016 10:51",
+		"cell:" : "cb 7/9/2015 11:18",
+		"scheduler" : "cb 7/9/2015 13:35",
+		"explodeAnimation" : "ClementBera 7/22/2015 17:03",
+		"startAnimation" : "ClementBera 7/9/2015 19:04",
+		"sprites:" : "cb 7/9/2015 11:18",
+		"scheduler:" : "cb 7/9/2015 13:35",
+		"cell" : "cb 7/9/2015 11:18",
+		"nextSprite" : "ClementBera 7/22/2015 16:43",
+		"currentSprite:" : "cb 7/9/2015 13:35",
+		"character:" : "ClementBera 7/15/2015 17:20",
+		"switchCell:" : "ClementBera 2/1/2016 10:51",
+		"endExplodeAnimation" : "ClementBera 7/22/2015 16:43",
+		"direction" : "cb 7/9/2015 11:18",
+		"initialShift" : "cb 7/9/2015 13:36",
+		"nextAnimation" : "ClementBera 7/22/2015 17:02",
+		"character" : "ClementBera 7/15/2015 17:20",
+		"move:" : "ClementBera 7/22/2015 16:25",
+		"sprites" : "cb 7/9/2015 11:18",
+		"currentSprite" : "cb 7/9/2015 13:35",
+		"direction:" : "cb 7/9/2015 11:18",
+		"finishMoveAnimation" : "ClementBera 7/22/2015 16:15"
+	},
+	"class" : { }
+}

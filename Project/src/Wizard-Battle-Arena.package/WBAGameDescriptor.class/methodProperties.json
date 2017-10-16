@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"spellDescriptors" : "cb 7/8/2015 19:52",
+		"backgroundDescriptor:" : "cb 7/8/2015 19:52",
+		"backgroundDescriptor" : "cb 7/8/2015 19:52",
+		"characterDescriptors" : "cb 7/8/2015 19:52",
+		"characterDescriptors:" : "cb 7/8/2015 19:52",
+		"arenaDescriptor:" : "cb 7/8/2015 19:52",
+		"arenaDescriptor" : "cb 7/8/2015 19:52",
+		"ensureCorrectness" : "cb 7/8/2015 19:54",
+		"spellDescriptors:" : "cb 7/8/2015 19:52"
+	},
+	"class" : {
+		"demo4" : "ClementBera 7/16/2015 19:41",
+		"demo:" : "ClementBera 7/17/2015 17:19",
+		"demo2" : "ClementBera 7/9/2015 20:53",
+		"demo3" : "ClementBera 7/9/2015 20:53"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WBAArenaComponent",
+	"category" : "Wizard-Battle-Arena-Widgets-Arena",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WBAElement",
+	"type" : "normal"
+}

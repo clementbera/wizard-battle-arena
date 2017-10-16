@@ -1,0 +1,3 @@
+actions
+hasPlayerSpecificHandling
+	^ true

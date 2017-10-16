@@ -1,0 +1,3 @@
+animation
+endAnimation
+	startingGame scheduler stopGameTickActionFor: self

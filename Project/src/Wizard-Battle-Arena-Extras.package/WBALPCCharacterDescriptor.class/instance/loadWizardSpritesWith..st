@@ -1,0 +1,3 @@
+accessing
+loadWizardSpritesWith: surface
+	

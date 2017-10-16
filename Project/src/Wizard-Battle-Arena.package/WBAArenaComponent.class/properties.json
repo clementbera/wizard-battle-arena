@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "ClementBera 2/1/2016 10:50",
+	"super" : "WBAWidget",
+	"category" : "Wizard-Battle-Arena-Widgets-Arena",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"shift",
+		"negatedShift"
+	],
+	"name" : "WBAArenaComponent",
+	"type" : "normal"
+}

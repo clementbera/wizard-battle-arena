@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"spells:" : "cb 7/9/2015 13:43",
+		"ground:" : "cb 7/8/2015 21:51",
+		"element" : "cb 7/8/2015 21:51",
+		"initialize" : "cb 7/9/2015 13:41",
+		"neighbours:" : "cb 7/8/2015 21:51",
+		"ground" : "cb 7/8/2015 21:51",
+		"neighbours" : "cb 7/8/2015 21:51",
+		"spells" : "cb 7/9/2015 13:43",
+		"element:" : "ClementBera 7/16/2015 12:50"
+	},
+	"class" : { }
+}

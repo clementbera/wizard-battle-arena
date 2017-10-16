@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"scheduler:" : "cb 7/9/2015 11:19",
+		"onCD" : "cb 7/9/2015 13:35",
+		"scheduler" : "cb 7/9/2015 11:19",
+		"sprites" : "cb 7/9/2015 10:09",
+		"initialize" : "ClementBera 7/9/2015 19:06",
+		"spellCD:" : "cb 7/9/2015 10:09",
+		"updateSpellCD" : "cb 7/8/2015 22:00",
+		"castFrom:" : "ClementBera 7/15/2015 17:21",
+		"spellCD" : "cb 7/9/2015 10:09",
+		"sprites:" : "cb 7/9/2015 10:09"
+	},
+	"class" : { }
+}

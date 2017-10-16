@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "cb 7/8/2015 17:27",
+	"super" : "Object",
+	"category" : "Wizard-Battle-Arena-Descriptors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cellDescriptors",
+		"windowExtent"
+	],
+	"name" : "WBAArenaDescriptor",
+	"type" : "normal"
+}

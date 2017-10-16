@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WBAAnimation",
+	"category" : "Wizard-Battle-Arena-Animation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"shiftIncr"
+	],
+	"name" : "WBAMoveAnimation",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"bootstrapGame:on:" : "ClementBera 7/23/2015 17:19",
+		"bootstrapArena:" : "ClementBera 7/23/2015 17:10",
+		"loadDescriptor:surface:into:" : "ClementBera 7/23/2015 17:15",
+		"loadSprites:surface:" : "ClementBera 7/23/2015 17:06",
+		"bootstrapWallCell:" : "cb 7/8/2015 21:53",
+		"bootstrapCellNeighbours" : "ClementBera 7/23/2015 17:10",
+		"eventHandler:" : "ClementBera 7/23/2015 17:15",
+		"bootstrapCharacterCell:playerIndex:" : "ClementBera 7/23/2015 17:19",
+		"bootstrapGroundOnlyCell:" : "cb 7/8/2015 21:52"
+	},
+	"class" : { }
+}

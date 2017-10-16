@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "ClementBera 7/16/2015 16:45",
+	"super" : "WBASpritesDescriptor",
+	"category" : "Wizard-Battle-Arena-Descriptors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WBACadreDescriptor",
+	"type" : "normal"
+}

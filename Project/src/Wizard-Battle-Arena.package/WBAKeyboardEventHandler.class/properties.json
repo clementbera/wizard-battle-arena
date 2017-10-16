@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "ClementBera 7/15/2015 16:45",
+	"super" : "WBAEventHandler",
+	"category" : "Wizard-Battle-Arena-Event-Handlers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"screenModel"
+	],
+	"name" : "WBAKeyboardEventHandler",
+	"type" : "normal"
+}

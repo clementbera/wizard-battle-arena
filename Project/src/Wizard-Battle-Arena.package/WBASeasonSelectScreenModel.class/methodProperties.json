@@ -1,0 +1,18 @@
+{
+	"instance" : {
+		"leftSelection" : "ClementBera 7/15/2015 16:43",
+		"seasonSubWidgets:" : "ClementBera 7/16/2015 14:37",
+		"switchToNextScreen" : "ClementBera 7/17/2015 17:29",
+		"newSeasonSubWidget:" : "ClementBera 7/17/2015 18:00",
+		"newSeasonWidget:" : "ClementBera 7/17/2015 18:01",
+		"endScreenComputation" : "ClementBera 7/17/2015 17:29",
+		"newSmallArrowSelectWidget:" : "ClementBera 7/17/2015 18:35",
+		"newLeftArrowColumSelectWidget" : "ClementBera 7/17/2015 18:37",
+		"initialize" : "ClementBera 7/15/2015 16:47",
+		"rightSelection" : "ClementBera 7/15/2015 16:47",
+		"loadWidgets" : "ClementBera 7/16/2015 16:28",
+		"newRightArrowColumSelectWidget" : "ClementBera 7/17/2015 18:37",
+		"renderWidgetsOn:" : "ClementBera 7/17/2015 18:37"
+	},
+	"class" : { }
+}

@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"setUpGame" : "ClementBera 7/23/2015 17:18",
+		"upSelection" : "ClementBera 7/15/2015 15:24",
+		"switchToNextScreen" : "ClementBera 7/17/2015 17:29",
+		"endScreenComputation" : "ClementBera 7/17/2015 17:29",
+		"initialize" : "ClementBera 7/23/2015 17:20",
+		"downSelection" : "ClementBera 7/15/2015 15:04",
+		"loadWidgets" : "ClementBera 7/17/2015 15:49",
+		"screen:" : "ClementBera 7/23/2015 17:18",
+		"renderWidgetsOn:" : "ClementBera 7/15/2015 15:22",
+		"newNumPlayersWidget:" : "ClementBera 7/17/2015 18:03"
+	},
+	"class" : { }
+}

@@ -1,0 +1,3 @@
+animation
+finishMoveAnimation
+	self nextAnimation

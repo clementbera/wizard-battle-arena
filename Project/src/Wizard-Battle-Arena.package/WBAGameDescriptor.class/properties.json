@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "cb 7/8/2015 19:57",
+	"super" : "Object",
+	"category" : "Wizard-Battle-Arena-Descriptors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"arenaDescriptor",
+		"characterDescriptors",
+		"spellDescriptors",
+		"backgroundDescriptor"
+	],
+	"name" : "WBAGameDescriptor",
+	"type" : "normal"
+}

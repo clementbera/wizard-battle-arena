@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Wizard-Battle-Arena-Extras",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"processes"
+	],
+	"name" : "WBAMusicPlayer",
+	"type" : "normal"
+}

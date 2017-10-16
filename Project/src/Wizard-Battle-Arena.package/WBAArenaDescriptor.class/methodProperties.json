@@ -1,0 +1,24 @@
+{
+	"instance" : {
+		"expectedNumberOfPlayers" : "cb 7/8/2015 17:27",
+		"windowExtent:" : "ClementBera 7/9/2015 15:31",
+		"cellDescriptors" : "cb 7/8/2015 17:03",
+		"cellDescriptors:" : "cb 7/8/2015 17:03",
+		"windowExtent" : "ClementBera 7/9/2015 15:31",
+		"dispatchIndex:on:with:" : "cb 7/8/2015 21:35"
+	},
+	"class" : {
+		"default3PlayersArena" : "ClementBera 7/9/2015 20:55",
+		"alternative3PlayersArena" : "ClementBera 7/17/2015 15:18",
+		"default4PlayersArena" : "ClementBera 7/16/2015 12:51",
+		"maze4PlayersArena" : "ClementBera 7/16/2015 19:40",
+		"default2PlayersArena" : "ClementBera 7/9/2015 20:55",
+		"chaotic4PlayersArena" : "ClementBera 7/10/2015 11:33",
+		"alternative2PlayersArena" : "ClementBera 7/17/2015 15:15",
+		"large4PlayersArena" : "",
+		"available3Players" : "ClementBera 7/17/2015 15:18",
+		"available4Players" : "ClementBera 7/17/2015 14:51",
+		"available2Players" : "ClementBera 7/17/2015 15:14",
+		"center4PlayersArena" : "ClementBera 7/16/2015 19:41"
+	}
+}

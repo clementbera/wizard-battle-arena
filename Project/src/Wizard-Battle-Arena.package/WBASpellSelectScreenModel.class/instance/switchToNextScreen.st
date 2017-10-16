@@ -1,0 +1,3 @@
+action
+switchToNextScreen
+	self nextScreen: WBAArenaSelectScreenModel 

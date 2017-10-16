@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"upSelection" : "ClementBera 7/17/2015 15:51",
+		"downSelection" : "ClementBera 7/17/2015 15:50",
+		"initialize" : "ClementBera 7/17/2015 15:50",
+		"renderWidgetsOn:" : "ClementBera 7/17/2015 15:53",
+		"winner:" : "ClementBera 7/17/2015 15:29",
+		"loadWidgets" : "ClementBera 7/17/2015 18:00",
+		"switchToNextScreen" : "ClementBera 7/17/2015 18:27",
+		"startAnimation" : "ClementBera 7/17/2015 17:34"
+	},
+	"class" : { }
+}

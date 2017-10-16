@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "ClementBera 7/23/2015 17:28",
+	"super" : "WBAEventHandler",
+	"category" : "Wizard-Battle-Arena-Event-Handlers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"players",
+		"schedulers"
+	],
+	"name" : "WBAArenaEventHandler",
+	"type" : "normal"
+}

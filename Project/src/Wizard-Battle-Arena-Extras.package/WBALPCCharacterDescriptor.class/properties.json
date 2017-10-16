@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WBASpritesDescriptor",
+	"category" : "Wizard-Battle-Arena-Extras",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WBALPCCharacterDescriptor",
+	"type" : "normal"
+}

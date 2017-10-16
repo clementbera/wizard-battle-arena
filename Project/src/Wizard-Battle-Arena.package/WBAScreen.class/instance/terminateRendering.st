@@ -1,0 +1,3 @@
+rendering
+terminateRendering
+	scheduler terminateProcess

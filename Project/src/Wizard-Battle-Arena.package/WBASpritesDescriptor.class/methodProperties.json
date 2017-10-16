@@ -1,0 +1,18 @@
+{
+	"instance" : {
+		"spriteSize" : "cb 7/8/2015 20:55",
+		"fileName:" : "cb 7/8/2015 17:05",
+		"position" : "cb 7/8/2015 17:05",
+		"loadSpritesWith:" : "cb 7/8/2015 21:21",
+		"fileName" : "cb 7/8/2015 17:05",
+		"loadImageFile" : "ClementBera 7/16/2015 15:39",
+		"position:" : "cb 7/8/2015 17:05",
+		"resourceFolder" : "cb 7/8/2015 20:54",
+		"basicLoadImageFile" : "ClementBera 7/16/2015 15:39"
+	},
+	"class" : {
+		"initialize" : "ClementBera 7/16/2015 15:39",
+		"shutDown" : "ClementBera 7/16/2015 15:39",
+		"newCache" : "ClementBera 7/16/2015 15:39"
+	}
+}

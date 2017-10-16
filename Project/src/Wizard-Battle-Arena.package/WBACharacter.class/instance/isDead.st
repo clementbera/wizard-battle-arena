@@ -1,0 +1,3 @@
+accessing
+isDead
+	^ cell isNil

@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"animate" : "ClementBera 7/23/2015 17:02",
+		"gameTick" : "ClementBera 7/22/2015 16:12",
+		"initialize" : "ClementBera 7/22/2015 15:07",
+		"isAnimationSplit:" : "ClementBera 7/22/2015 16:34",
+		"initialStep:" : "ClementBera 7/22/2015 15:08",
+		"isMidAnimation" : "ClementBera 7/22/2015 16:33",
+		"numberOfAnimationFrame" : "ClementBera 7/22/2015 15:10",
+		"isEndAnimation" : "ClementBera 7/22/2015 16:20"
+	},
+	"class" : { }
+}

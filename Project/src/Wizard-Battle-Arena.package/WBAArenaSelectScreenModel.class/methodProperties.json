@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"upSelection" : "ClementBera 7/17/2015 15:11",
+		"switchToNextScreen" : "ClementBera 7/17/2015 17:25",
+		"newSubArenaWidget:" : "ClementBera 7/17/2015 18:03",
+		"endScreenComputation" : "ClementBera 7/17/2015 17:24",
+		"newArenaWidget:" : "ClementBera 7/17/2015 17:59",
+		"initialize" : "ClementBera 7/17/2015 14:53",
+		"downSelection" : "ClementBera 7/17/2015 15:11",
+		"loadWidgets" : "ClementBera 7/17/2015 15:49",
+		"renderWidgetsOn:" : "ClementBera 7/17/2015 15:11",
+		"numArenas" : "ClementBera 7/17/2015 15:11"
+	},
+	"class" : { }
+}

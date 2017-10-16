@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Wizard-Battle-Arena-Extras",
+	"classinstvars" : [
+		"musics"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WBAMusicData",
+	"type" : "normal"
+}

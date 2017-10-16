@@ -1,0 +1,9 @@
+{
+	"instance" : {
+		"animationTick" : "cb 7/9/2015 11:32",
+		"initialize" : "ClementBera 7/23/2015 17:02",
+		"newGameTickAction:for:" : "ClementBera 7/15/2015 12:44",
+		"stopGameTickActionFor:" : "ClementBera 7/15/2015 12:44"
+	},
+	"class" : { }
+}

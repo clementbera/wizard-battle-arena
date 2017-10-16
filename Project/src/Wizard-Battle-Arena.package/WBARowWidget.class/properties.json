@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "ClementBera 7/23/2015 17:25",
+	"super" : "WBAWidget",
+	"category" : "Wizard-Battle-Arena-Widgets-Screen",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"widgets",
+		"space"
+	],
+	"name" : "WBARowWidget",
+	"type" : "normal"
+}

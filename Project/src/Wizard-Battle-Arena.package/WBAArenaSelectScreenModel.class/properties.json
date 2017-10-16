@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "WBAMenuScreenModel",
+	"category" : "Wizard-Battle-Arena-Widgets-Screen",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentChoice",
+		"titleWidget",
+		"arrowWidget",
+		"arenaWidget",
+		"arenas"
+	],
+	"name" : "WBAArenaSelectScreenModel",
+	"type" : "normal"
+}

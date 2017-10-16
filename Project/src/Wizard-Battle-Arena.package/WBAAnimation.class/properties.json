@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "ClementBera 7/22/2015 17:06",
+	"super" : "Object",
+	"category" : "Wizard-Battle-Arena-Animation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"step"
+	],
+	"name" : "WBAAnimation",
+	"type" : "normal"
+}

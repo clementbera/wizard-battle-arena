@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "WBAMenuScreenModel",
+	"category" : "Wizard-Battle-Arena-Widgets-Screen",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentChoice",
+		"winner",
+		"characterWidget",
+		"titleWidget",
+		"choiceWidgets",
+		"arrowWidget",
+		"spellWidget"
+	],
+	"name" : "WBAEndScreenModel",
+	"type" : "normal"
+}

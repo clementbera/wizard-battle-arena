@@ -1,0 +1,9 @@
+{
+	"instance" : { },
+	"class" : {
+		"getMusicStreamForSelector:" : "ClementBera 11/28/2015 12:31",
+		"allMusicSelectors" : "ClementBera 11/28/2015 12:33",
+		"storeAllMusic" : "ClementBera 11/28/2015 12:35",
+		"storeMusicForSelector:" : "ClementBera 11/28/2015 12:32"
+	}
+}

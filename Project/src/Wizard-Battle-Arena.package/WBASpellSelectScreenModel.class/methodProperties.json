@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"newSpellWidgets:" : "ClementBera 7/17/2015 18:04",
+		"hasPlayerSpecificHandling" : "ClementBera 7/17/2015 17:13",
+		"handleKeyDownFor:key:" : "ClementBera 7/17/2015 14:43",
+		"renderWidgetsOn:" : "ClementBera 7/17/2015 17:50",
+		"loadSpellSprites" : "ClementBera 7/17/2015 14:27",
+		"loadWidgets" : "ClementBera 7/17/2015 17:53",
+		"switchToNextScreen" : "ClementBera 7/17/2015 17:38",
+		"startAnimation" : "ClementBera 7/17/2015 17:43",
+		"endScreenComputation" : "ClementBera 7/17/2015 17:30"
+	},
+	"class" : { }
+}

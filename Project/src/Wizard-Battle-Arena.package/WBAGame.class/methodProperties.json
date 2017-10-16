@@ -1,0 +1,18 @@
+{
+	"instance" : {
+		"checkEndGame" : "ClementBera 7/23/2015 17:30",
+		"scheduler:" : "ClementBera 7/15/2015 14:14",
+		"gameDescriptor:" : "ClementBera 7/23/2015 17:20",
+		"screen" : "ClementBera 7/23/2015 17:20",
+		"scheduler" : "ClementBera 7/15/2015 14:14",
+		"textSprites:" : "ClementBera 7/23/2015 17:20",
+		"players" : "ClementBera 7/15/2015 14:14",
+		"initialize" : "ClementBera 7/23/2015 17:20",
+		"players:" : "ClementBera 7/15/2015 14:14",
+		"screen:" : "ClementBera 7/23/2015 17:20",
+		"textSprites" : "ClementBera 7/23/2015 17:20",
+		"endScreen:" : "ClementBera 7/23/2015 17:20",
+		"gameDescriptor" : "ClementBera 7/23/2015 17:20"
+	},
+	"class" : { }
+}

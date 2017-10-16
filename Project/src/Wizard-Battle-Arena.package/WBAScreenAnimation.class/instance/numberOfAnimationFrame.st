@@ -1,0 +1,3 @@
+constants
+numberOfAnimationFrame
+	^ 10

@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"readWAVFromStream:" : "ClementBera 10/16/2017 11:35",
+		"makeBufferFromHeader:data:" : "ClementBera 10/16/2017 11:36",
+		"initialize" : "ClementBera 11/28/2015 12:46",
+		"playSelector:" : "ClementBera 11/28/2015 12:45",
+		"readFormatFromHeader:" : "ClementBera 10/16/2017 11:36"
+	},
+	"class" : { }
+}

@@ -1,0 +1,1 @@
+Describes the game being prepared and the active game while playing in the arena.

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "ClementBera 7/10/2015 15:05",
+	"super" : "WBASpritesDescriptor",
+	"category" : "Wizard-Battle-Arena-Descriptors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WBATextDescriptor",
+	"type" : "normal"
+}

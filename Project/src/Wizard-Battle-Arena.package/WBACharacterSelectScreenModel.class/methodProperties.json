@@ -1,0 +1,17 @@
+{
+	"instance" : {
+		"newCharacterWidget" : "ClementBera 7/17/2015 17:59",
+		"hasPlayerSpecificHandling" : "ClementBera 7/17/2015 17:13",
+		"switchToNextScreen" : "ClementBera 7/17/2015 17:27",
+		"endScreenComputation" : "ClementBera 7/17/2015 17:27",
+		"characterWidgets:" : "ClementBera 7/17/2015 17:56",
+		"extent" : "ClementBera 7/16/2015 15:15",
+		"loadWidgets" : "ClementBera 7/17/2015 17:53",
+		"startAnimation" : "ClementBera 7/17/2015 17:34",
+		"renderWidgetsOn:" : "ClementBera 7/17/2015 17:50",
+		"newCharacterRowWidget:" : "ClementBera 7/17/2015 18:03",
+		"characterRowWidgets" : "ClementBera 7/16/2015 17:04",
+		"handleKeyDownFor:key:" : "ClementBera 7/17/2015 17:48"
+	},
+	"class" : { }
+}

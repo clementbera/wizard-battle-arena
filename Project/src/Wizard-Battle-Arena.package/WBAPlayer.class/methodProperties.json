@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"keyboardCodes" : "cb 7/8/2015 20:09",
+		"inArenaKeyDown:" : "ClementBera 7/9/2015 19:52",
+		"character" : "cb 7/8/2015 20:09",
+		"keyboardCodes:" : "cb 7/8/2015 20:09",
+		"movementKeyDown:" : "cb 7/8/2015 20:09",
+		"character:" : "cb 7/8/2015 20:09",
+		"inArenaKeyUp:" : "ClementBera 7/9/2015 19:52",
+		"movementKeyDown" : "cb 7/8/2015 20:09"
+	},
+	"class" : {
+		"defaultKeyboardCodes" : "cb 7/8/2015 20:08"
+	}
+}

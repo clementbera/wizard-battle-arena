@@ -1,0 +1,1 @@
+I have the responsibility to load sprites for text in menus

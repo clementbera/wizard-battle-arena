@@ -1,0 +1,1 @@
+pharo-vm/Pharo.app/Contents/MacOS/Pharo --headless G0.image eval --no-quit WizardBattleArena start

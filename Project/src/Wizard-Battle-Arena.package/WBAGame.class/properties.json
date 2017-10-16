@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "ClementBera 7/23/2015 17:21",
+	"super" : "Object",
+	"category" : "Wizard-Battle-Arena-Game-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scheduler",
+		"players",
+		"gameDescriptor",
+		"textSprites",
+		"screen"
+	],
+	"name" : "WBAGame",
+	"type" : "normal"
+}

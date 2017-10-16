@@ -1,0 +1,1 @@
+Describes how to load spell sprites

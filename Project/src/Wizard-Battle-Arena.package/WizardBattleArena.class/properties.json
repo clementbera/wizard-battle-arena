@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "ClementBera 7/15/2015 14:25",
+	"super" : "Object",
+	"category" : "Wizard-Battle-Arena-Front-End",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WizardBattleArena",
+	"type" : "normal"
+}

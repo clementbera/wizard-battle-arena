@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "ClementBera 7/15/2015 15:53",
+	"super" : "OSWindowEventVisitor",
+	"category" : "Wizard-Battle-Arena-Event-Handlers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WBAEventHandler",
+	"type" : "normal"
+}

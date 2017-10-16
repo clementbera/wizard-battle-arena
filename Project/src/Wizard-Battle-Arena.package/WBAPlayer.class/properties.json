@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "cb 7/8/2015 19:58",
+	"super" : "Object",
+	"category" : "Wizard-Battle-Arena-Game-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"character",
+		"keyboardCodes",
+		"movementKeyDown"
+	],
+	"name" : "WBAPlayer",
+	"type" : "normal"
+}
