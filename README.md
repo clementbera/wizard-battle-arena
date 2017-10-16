@@ -1,6 +1,8 @@
 # What is this ?
 
-This repository holds the code for the WizardBattleArena game. A preview of the game can be seen on youtube [here](https://www.youtube.com/watch?v=srPdFgbyS6s).
+This repository holds the code for the WizardBattleArena game. A preview of the game can be seen on youtube:
+
+[![WizardBattleArenaPreview](https://img.youtube.com/vi/srPdFgbyS6s/0.jpg)](https://www.youtube.com/watch?v=srPdFgbyS6s)
 
 The game is a bomberman-like with [Liberated Pixel Cup](http://lpc.opengameart.org/) graphics (In short, all graphics are licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)). The game itself is under GPLv2 licence. 
 
