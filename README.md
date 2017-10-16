@@ -12,9 +12,13 @@ There are two packages at the root. The Demos package includes ready-to-go games
 
 In general if you want to work on the game you want to checkout only the Project package and if you want to demo it you want to checkout only one of the demo. Checking everything out takes a significant amount of time, don't do that.
 
+# Demo
+
+To demo, download one of the demo fodler and use the scripts (startMac or startLinux).
+
 # Building a development runtime
 
-##OS and base image
+## OS and base image
 
 *Ubuntu 64*
 
@@ -28,41 +32,50 @@ wget -O- get.pharo.org/64/61+vm | bash
 
 *Ubuntu 32*
 
-Should work out the same way as Ubuntu 64, with a 32 bits runtime, even though nobody has tried (I tried 32bits runtime on Ubuntu 64 with 32 bits libs and it worked). Use this line instead:
+Should work out the same way as Ubuntu 64, with a 32 bits runtime, even though nobody has tried (I tried 32bits runtime on Ubuntu 64 with 32 bits libs and it worked). Use this line instead the wget line:
 wget -O- get.pharo.org/61+vm | bash
-
-Else follow Ubuntu 64 instructions.
 
 *Mac OS X 10.11*
 
-There's a known working version on Mac, which is based on a Pharo 5-alpha image:
+git co https://github.com/clementbera/wizard-battle-arena
+
+cd wizard-battle-arena/Project
+
+Then load the following image and VM:
 
 --- Image ---
 
-Pharo5.0
+Download http://files.pharo.org/image/50-preSpur/50155.zip
 
-Latest update: #50155
-
-But you need to update both OSWindow-Core and OSWindow-SDL2 to version 69 by Merwann to make it work.
+Then you need to update both OSWindow-Core and OSWindow-SDL2 to version 69 by Merwann (Monticello browser, OSWindow repository)
 
 --- VM ---
 
-NBCoInterpreter NativeBoost-CogPlugin-EstebanLorenzano.21 uuid: 4d9b9bdf-2dfa-4c0b-99eb-5b110dadc697 Apr  2 2015
+Download http://files.pharo.org/vm/pharo/mac/stable-20150403.zip
 
-NBCogit NativeBoost-CogPlugin-EstebanLorenzano.21 uuid: 4d9b9bdf-2dfa-4c0b-99eb-5b110dadc697 Apr  2 2015
+Then you can just drag and drop the image over the VM to run it.
 
-https://github.com/pharo-project/pharo-vm.git Commit: 32d18ba0f2db9bee7f3bdbf16bdb24fe4801cfc5 Date: 2015-03-24
- 11:08:14 +0100 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #14904
+## Loading and running the game
 
-##Demo
+Make sure your image file is in the Project folder, near the src and resources folders (important for relative paths). 
 
-To demo, download one of the demo fodler and use the scripts (startMac or startLinux).
-
-##Loading and running the game
+Open your image with the provided VM.
 
 *Loading*
 
+Open the Monticello Browser from the World menu.
 
+Click "+ Repository"
+
+Select "filetree://"
+
+Click "src" 
+
+Click "OK"
+
+Load the Wizard-Battle-Arena package
+
+Load, if you want to, the Wizard-Battle-Arena-Extras package (unreleased and experimental contents)
 
 *Running*
 
@@ -71,5 +84,7 @@ In a playground, run this DoIt:
 WizardBattleArena start
 
 If problems:
-In general you need to update Cairo.
+On Linux in general you need to update Cairo, so try to update libCairo and retry.
+On Mac usually the problem is with SDL2, so try to install / update it and retry.
+If you've installed something, restart your computer, it may help too.
 
