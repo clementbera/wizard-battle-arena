@@ -26,7 +26,7 @@ To demo, download one of the demo fodler and use the scripts (startMac or startL
 
 *Ubuntu 64*
 
-git co https://github.com/clementbera/wizard-battle-arena
+git clone https://github.com/clementbera/wizard-battle-arena
 
 cd wizard-battle-arena/Project
 
@@ -41,7 +41,7 @@ wget -O- get.pharo.org/61+vm | bash
 
 *Mac OS X 10.11*
 
-git co https://github.com/clementbera/wizard-battle-arena
+git clone https://github.com/clementbera/wizard-battle-arena
 
 cd wizard-battle-arena/Project
 
@@ -57,11 +57,23 @@ Then you need to update both OSWindow-Core and OSWindow-SDL2 to version 69 by Me
 
 Download http://files.pharo.org/vm/pharo/mac/stable-20150403.zip
 
-Then you can just drag and drop the image over the VM to run it.
+Then you can just drag and drop the image over the VM to run it or build your own start-up scripts.
 
-*Windows*
+*Windows 7*
 
-I'm still clueless about how the game would behave on this OS, I am still struggling to get a working Windows VM with the correct keys. Try from Pharo 6.1 similarly to Ubuntu 64 and report issues to the pharo-users mailing list.
+Using MinGW64, the game work when I do:
+
+git clone https://github.com/clementbera/wizard-battle-arena
+
+cd wizard-battle-arena/Project
+
+curl get.pharo.org/61+vm | bash
+
+./pharo-ui Pharo.image 
+
+On more recent Windows, I believe it should work exactly the same way. On very recent or upcoming Windows releases, I guess there could be a problem with missing 32 bits libs. You could try using Pharo 64 bits, but on Windows there are know bugs (I'm talking mid-2017) I don't want to deal with right now. So I guess you would have to track down the missing 32 bits libs and install them somehow.
+
+Important Note: on Windows, the SDL2 window looks awckward. It's a known annoying bug, but the game still works. You can try starting the game in full screen (Change this in WBAScreen by setting the OSWindowAttribute fullscreen to true) to avoid most of the problem.
 
 ## Loading and running the game
 
@@ -77,15 +89,23 @@ In addition, load, if you want to, the Wizard-Battle-Arena-Extras package (unrel
 
 *Running*
 
-In a playground, run this DoIt:
+If on Pharo 6.1 (Linux and Windows typically), open a playground and run this DoIt to patch things up:
+
+FFIExternalStructure allSubclassesDo: #rebuildFieldAccessors.
+
+Then run this DoIt (Linux, Mac and Windows):
 
 WizardBattleArena start
 
 If problems:
 
-On Linux in general you need to update Cairo, so try to update libCairo and retry.
+On Linux usually you need to update Cairo, so try to update libCairo and retry.
 
-On Mac usually the problem is with SDL2, so try to install / update it and retry.
+On Mac usually the problem lies with SDL2, so try to install / update it and retry.
 
-If you've installed something, restart your computer, it may help too.
+On Windows no idea, so good luck :-).
+
+If you've installed something, restart your computer, it may help too (for some reason it helped me on Mac to deal with some SDL2 bugs after updating the librairies).
+
+Have fun toying around with the game
 
