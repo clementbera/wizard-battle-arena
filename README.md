@@ -63,7 +63,7 @@ Note: I use Mac OS X 10.11.
 
 *Windows 7*
 
-Using MinGW64, the game work when I do:
+Using MinGW, the game work when I do:
 
 	git clone https://github.com/clementbera/wizard-battle-arena
 	cd wizard-battle-arena/Project
