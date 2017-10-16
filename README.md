@@ -40,7 +40,7 @@ To demo, download one of the demo folder and use the scripts (startMac or startL
 	
 Note: I tried 32bits runtime on Ubuntu 64 with 32 bits libs and it worked, but I did not try on an actual 32 bits Ubuntu.
 
-*Mac OS X 10.11*
+*Mac OS X*
 
 	git clone https://github.com/clementbera/wizard-battle-arena
 	cd wizard-battle-arena/Project
@@ -59,6 +59,8 @@ Download http://files.pharo.org/vm/pharo/mac/stable-20150403.zip
 
 Then you can just drag and drop the image over the VM to run it or build your own start-up scripts.
 
+Note: I use Mac OS X 10.11.
+
 *Windows 7*
 
 Using MinGW64, the game work when I do:
@@ -70,7 +72,7 @@ Using MinGW64, the game work when I do:
 
 On more recent Windows, I believe it should work exactly the same way. On very recent or upcoming Windows releases, I guess there could be a problem with missing 32 bits libs. You could try using Pharo 64 bits, but on Windows there are know bugs (I'm talking mid-2017) I don't want to deal with right now. So I guess you would have to track down the missing 32 bits libs and install them somehow.
 
-Important Note: on Windows, the SDL2 window looks awckward. It's a known annoying bug, but the game still works. You can try starting the game in full screen (Change this in WBAScreen by setting the OSWindowAttribute fullscreen to true) to avoid most of the problem.
+Important Note: on Windows 64, the SDL2 window looks awckward. It's a known annoying bug due to strange 32 - 64 bits interactions, but the game still works. You can try starting the game in full screen (Change this in WBAScreen by setting the OSWindowAttribute fullscreen to true) to avoid most of the problem.
 
 ## Loading and running the game
 
