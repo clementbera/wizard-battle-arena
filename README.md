@@ -26,22 +26,21 @@ To demo, download one of the demo fodler and use the scripts (startMac or startL
 
 *Ubuntu 64*
 
-	`git clone https://github.com/clementbera/wizard-battle-arena
-	cd wizard-battle-arena/Project`
-
+	git clone https://github.com/clementbera/wizard-battle-arena
+	cd wizard-battle-arena/Project
 	wget -O- get.pharo.org/64/61+vm | bash
 	./pharo-ui Pharo.image
 
 *Ubuntu 32*
 
 Should work out the same way as Ubuntu 64, with a 32 bits runtime, even though nobody has tried (I tried 32bits runtime on Ubuntu 64 with 32 bits libs and it worked). Use this line instead the wget line:
-wget -O- get.pharo.org/61+vm | bash
+
+	wget -O- get.pharo.org/61+vm | bash
 
 *Mac OS X 10.11*
 
-git clone https://github.com/clementbera/wizard-battle-arena
-
-cd wizard-battle-arena/Project
+	git clone https://github.com/clementbera/wizard-battle-arena
+	cd wizard-battle-arena/Project
 
 Then load the following image and VM:
 
@@ -61,13 +60,10 @@ Then you can just drag and drop the image over the VM to run it or build your ow
 
 Using MinGW64, the game work when I do:
 
-git clone https://github.com/clementbera/wizard-battle-arena
-
-cd wizard-battle-arena/Project
-
-curl get.pharo.org/61+vm | bash
-
-./pharo-ui Pharo.image 
+	git clone https://github.com/clementbera/wizard-battle-arena
+	cd wizard-battle-arena/Project
+	curl get.pharo.org/61+vm | bash
+	./pharo-ui Pharo.image 
 
 On more recent Windows, I believe it should work exactly the same way. On very recent or upcoming Windows releases, I guess there could be a problem with missing 32 bits libs. You could try using Pharo 64 bits, but on Windows there are know bugs (I'm talking mid-2017) I don't want to deal with right now. So I guess you would have to track down the missing 32 bits libs and install them somehow.
 
@@ -89,11 +85,11 @@ In addition, load, if you want to, the Wizard-Battle-Arena-Extras package (unrel
 
 If on Pharo 6.1 (Linux and Windows typically), open a playground and run this DoIt to patch things up:
 
-FFIExternalStructure allSubclassesDo: #rebuildFieldAccessors.
+	FFIExternalStructure allSubclassesDo: #rebuildFieldAccessors.
 
 Then run this DoIt (Linux, Mac and Windows):
 
-WizardBattleArena start
+	WizardBattleArena start
 
 If problems:
 
