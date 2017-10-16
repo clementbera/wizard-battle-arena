@@ -1,3 +1,3 @@
-as yet unclassified
+events
 visitKeyUpEvent: anEvent
-	screenModel handleKeyDown: anEvent scanCode
+	screenModel handleKeyStroke: anEvent scanCode

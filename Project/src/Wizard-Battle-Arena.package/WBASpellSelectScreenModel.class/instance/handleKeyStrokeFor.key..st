@@ -1,5 +1,5 @@
 action
-handleKeyDownFor: playerIndex key: index
+handleKeyStrokeFor: playerIndex key: index
 	| currentLocation newLocation |
 	currentLocation := currentChoices at: playerIndex.
 	newLocation := (currentLocation + (index * 2 - 5)) \\ 6.

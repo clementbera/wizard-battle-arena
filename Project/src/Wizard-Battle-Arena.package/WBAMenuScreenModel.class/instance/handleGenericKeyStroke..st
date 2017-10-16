@@ -1,5 +1,5 @@
 event handling
-handleGenericKeyDown: code
+handleGenericKeyStroke: code
 	"key codes for arrows"
 	code = 81 ifTrue: [ self downSelection ].
 	code = 80 ifTrue: [ self leftSelection ].

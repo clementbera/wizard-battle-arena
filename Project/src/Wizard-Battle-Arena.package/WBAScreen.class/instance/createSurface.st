@@ -1,3 +1,3 @@
 accessing
 createSurface
-	surface := AthensCairoSurface fromSDLSurface: (window handle handle getWindowSurface)
+	surface := AthensCairoSDLSurface fromSDLSurface: (window handle handle getWindowSurface)

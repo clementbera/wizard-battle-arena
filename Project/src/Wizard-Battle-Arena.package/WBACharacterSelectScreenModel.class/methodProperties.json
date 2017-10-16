@@ -1,6 +1,5 @@
 {
 	"instance" : {
-		"newCharacterWidget" : "ClementBera 7/17/2015 17:59",
 		"hasPlayerSpecificHandling" : "ClementBera 7/17/2015 17:13",
 		"switchToNextScreen" : "ClementBera 7/17/2015 17:27",
 		"endScreenComputation" : "ClementBera 7/17/2015 17:27",
@@ -8,10 +7,11 @@
 		"extent" : "ClementBera 7/16/2015 15:15",
 		"loadWidgets" : "ClementBera 7/17/2015 17:53",
 		"startAnimation" : "ClementBera 7/17/2015 17:34",
+		"handleKeyStrokeFor:key:" : "ClementBera 10/16/2017 16:05",
 		"renderWidgetsOn:" : "ClementBera 7/17/2015 17:50",
 		"newCharacterRowWidget:" : "ClementBera 7/17/2015 18:03",
 		"characterRowWidgets" : "ClementBera 7/16/2015 17:04",
-		"handleKeyDownFor:key:" : "ClementBera 7/17/2015 17:48"
+		"newCharacterWidget" : "ClementBera 7/17/2015 17:59"
 	},
 	"class" : { }
 }
