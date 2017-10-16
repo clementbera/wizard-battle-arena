@@ -61,7 +61,7 @@ Then you can just drag and drop the image over the VM to run it.
 
 *Windows*
 
-I'm still clueless about how the game would behave on this OS, I am still struggle to get a working Windows VM with the correct keys. Try from Pharo 6.1 similarly to Ubuntu 64 and tell me.
+I'm still clueless about how the game would behave on this OS, I am still struggling to get a working Windows VM with the correct keys. Try from Pharo 6.1 similarly to Ubuntu 64 and report issues to the pharo-users mailing list.
 
 ## Loading and running the game
 
