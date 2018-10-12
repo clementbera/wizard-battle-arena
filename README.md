@@ -92,11 +92,7 @@ In addition, load, if you want to, the Wizard-Battle-Arena-Extras package (unrel
 
 *Running*
 
-If on Pharo 6.1 (Linux and Windows typically), open a playground and run this DoIt to patch things up:
-
-	FFIExternalStructure allSubclassesDo: #rebuildFieldAccessors.
-
-Then run this DoIt (Linux, Mac and Windows):
+Run this DoIt (Linux, Mac and Windows):
 
 	WizardBattleArena start
 
