@@ -20,6 +20,8 @@ In general if you want to work on the game you want to checkout only the Project
 
 To demo, download one of the demo folder and use the scripts (startMac or startLinux). The idea is to demo by starting the VM headless, open the UI outside of the Morphic infrastructure, and close the image when the main SDL2 window is killed.
 
+Note: The Mac demo works up to Mac OS X 10.12. For Mac OS X 10.13 and onwards (High Sierra), there are no known working VMs. Recent VMs works on Mac OS X 10.13, but they have a SDL2 bindings where keyboard events have bad interactions with Pharo event handling, leading the game to be unplayable. Old VMs are incompatible due to Apple changes.
+
 # Building a development runtime
 
 ## OS and base image
@@ -41,6 +43,8 @@ To demo, download one of the demo folder and use the scripts (startMac or startL
 Note: I tried 32bits runtime on Ubuntu 64 with 32 bits libs and it worked, but I did not try on an actual 32 bits Ubuntu.
 
 *Mac OS X*
+
+Note: The Mac development environment works up to Mac OS X 10.12. For Mac OS X 10.13 and onwards (High Sierra), there are no known working VMs. Recent VMs works on Mac OS X 10.13, but they have a SDL2 bindings where keyboard events have bad interactions with Pharo event handling, leading the game to be unplayable. Old VMs are incompatible due to Apple changes.
 
 	git clone https://github.com/clementbera/wizard-battle-arena
 	cd wizard-battle-arena/Project
